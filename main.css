@@ -1,0 +1,28 @@
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    /* justify-content: center; */
+    align-content: center;
+    margin: 0 auto;
+}
+
+.colors {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    align-content: center;
+    margin: 0 auto;
+}
+.boxes {
+    height: 30px;
+    width: 30px;
+    background: rgba(227, 231, 227, 0.653);
+    border: 1px solid red;
+}
+
+.colors div{
+    height: 30px;
+    width: 100%;
+}
