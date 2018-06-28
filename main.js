@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var getCont2 = document.querySelector('.colors');
         var createBx2 = document.createElement('div');
         createBx2.style.backgroundColor = element
-        createBx2.className = element;
+        // createBx2.className = element;
         getCont2.append(createBx2)
     });
 
